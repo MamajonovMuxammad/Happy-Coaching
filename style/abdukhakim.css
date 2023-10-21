@@ -112,6 +112,7 @@ ul {
     font-size: 18px;
     font-weight: 400;
     line-height: 160%;
+    margin-bottom: 18px;
 }
 
 .header__right-img {
@@ -121,3 +122,110 @@ ul {
     position: absolute;
     bottom: -50px;
 }
+
+.btn {
+    width: 225px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: #20AD96;
+    align-items: center;
+    transition: 1s;
+}
+
+.btn a {
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+.btn a:hover {
+    color: #514e4e;
+    transition: 0.4s;
+}
+.btn:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.main__box-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__box-one h2 {
+    color: rgba(74, 85, 108, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main__box-one h1{
+    color: #333461;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+    margin: 12px 0 20px 0;
+}
+
+.main__box-one p{
+    color: rgba(74, 85, 108, 0.70);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 768px;
+    margin-bottom: 64px;
+}
+
+.main__box-two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+    margin-bottom: 124px;
+}
+
+.icons {
+    transition: 0.7s;
+}
+.icons:hover {
+    transform: scale(1.3);
+    transition: 0.7s;
+}
+
+.chat__boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat__boxes h1 {
+    color: #333461;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 20px 0 8px 0;
+}
+.chat__boxes p{
+    color: #667085;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 384px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

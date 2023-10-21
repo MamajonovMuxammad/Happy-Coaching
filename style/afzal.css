@@ -28,7 +28,7 @@ ul {
 }
 
 .navbar {
-   margin-top: 50px; 
+   margin-top: 20px; 
 }
 
 /* .header span {
@@ -136,6 +136,7 @@ ul {
     margin-left: 35px;
     margin-top: 24px;
     margin-left: 86px;
+    width: 545px;
 }
 
 .part2 {
@@ -187,17 +188,18 @@ ul {
 }
 
 
-
-
 .box {
     width: 450px;
     height: 360px;
     flex-shrink: 0;
     border: 1px solid #EDEFF5;
     background: #FFF;
+    transition: 0.5s;
 }
 .box:hover{
     box-shadow:4px 7px 15px #818181;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 #box-img{
     margin-top: 56px;
