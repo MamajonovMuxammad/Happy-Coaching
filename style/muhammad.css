@@ -5,6 +5,13 @@
     font-family: Arial;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
 a {
     text-decoration: none;
 }
@@ -17,4 +24,129 @@ ul {
     max-width: 1250px;
     width: 100%;
     margin: 0 auto;
+ 
 }
+.happycoaching{
+display: flex;
+margin-top: 16px;
+width: fit-content;
+}
+.ssilki_navbar{
+    display: flex;
+    justify-content: space-around;
+    font-family: Kumbh Sans;
+   margin-left: 555px;
+   width: fit-content;
+   margin-top: -20px;
+   gap: 30px;
+}
+.ssilki_navbar a{
+    color: #4A556C;
+    text-decoration: none;
+    position: relative;
+}
+.ssilki_navbar a::after {
+    content: "";
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(57, 53, 56); 
+    transition: width 0.5s ease-in-out; /
+  }
+  
+ 
+  .ssilki_navbar a:hover::after {
+    width: 100%; 
+  }
+.getyourfree{
+    margin-left: 1000px;
+    width:193px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    margin-top: -30px;
+    border-radius: 4px;
+background: #20AD96;
+align-items: center;
+}
+  .getyourfree a {
+    color: #ffffff; 
+    transition: all 0.4s ease-in-out; 
+    text-decoration: none;
+    
+  }
+  .getyourfree a:hover {
+    transform: scale(1.1);
+    color: #514e4e;
+    
+  }
+.block{
+    display: flex;  
+height: 720px;
+padding: 128px 0px 96px 0px;
+}
+.header h1{
+    color: #333461;
+    font-size: 48px;
+    font-style: normal;
+    letter-spacing: -0.96px;
+    margin-left: 35px;
+    
+}
+.header h3{
+    color: rgba(74, 85, 108, 0.70);
+font-family: Kumbh Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin-left: 35px;
+margin-top: 24px;
+}
+.getfree{
+    width:193px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 4px;
+background: #20AD96;
+align-items: center;
+}
+
+
+.getfree {
+    text-decoration: none; 
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 10px; 
+    transition: all 0.5s ease-in-out; 
+  }
+  .getfree:hover {
+    transform: scale(1.2);
+    background-color: white;
+    color: lightblue; 
+  }
+  .form{
+    display: flex;
+    padding: 12px 14px 12px 16px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 18px;
+    border: 1px solid var(--gray-300, #D0D5DD);
+    width: 250px;
+  }
+  .form1{
+    display: flex;
+    padding: 12px 14px 12px 16px;
+    margin-left: 20px;
+height: 60px;
+border-radius: 18px;
+border: 1px solid var(--gray-300, #D0D5DD);
+  }
+  .input{
+    border-color: #ffffff;
+  }
