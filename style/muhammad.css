@@ -106,14 +106,15 @@ margin-left: 35px;
 margin-top: 24px;
 }
 .getfree{
-    width:193px;
-    height: 40px;
+    width:250px;
+    height: 48px;
     display:flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 4px;
 background: #20AD96;
 align-items: center;
+margin-left: 30px;
 }
 
 
@@ -133,20 +134,110 @@ align-items: center;
   .form{
     display: flex;
     padding: 12px 14px 12px 16px;
-    margin-left: 20px;
-    height: 60px;
+    margin-left: 30px;
+    height: 48px;
     border-radius: 18px;
     border: 1px solid var(--gray-300, #D0D5DD);
     width: 250px;
+    margin-top: 30px;
   }
-  .form1{
+  .form1 {
     display: flex;
     padding: 12px 14px 12px 16px;
-    margin-left: 20px;
-height: 60px;
+    margin-left: 30px;
+height: 48px;
 border-radius: 18px;
 border: 1px solid var(--gray-300, #D0D5DD);
+width: 250px;
+margin-top: 10px;
   }
-  .input{
-    border-color: #ffffff;
+ form h5{
+color: var(--gray-500, #667085);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+margin-left: 30px;
+margin-top: 15px;
+ }
+ .block2{
+   position: relative;
+    width: 600px;
+    height: 720px;
+    background: #FAF8F6;
+    margin-left: 90px;
+    margin-top: -110px;
+ }
+ .svg_block2{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 70px;
+ }
+ .img_block2{
+    position: absolute;
+    top: 288px;
+    left: 195px;
+ }
+ .svg1_block2{
+    position: absolute;
+    left: 115px;
+    top: 130px;
+ }
+ 
+.circle {
+    position: absolute;
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    background-color: #20AD96; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    transition: all 0.7s ease-in-out;
+    left: 480px; 
+    top: 30px;
   }
+  .free {
+    color: white;
+  }
+  .circle:hover {
+    transform: rotate(360deg);
+    background-color: #104c42; ;
+  }
+  .free:hover {
+    color: #ffffff; 
+  }
+  .svg2_block2{
+    position: absolute;
+    top: 570px;
+    margin-left: 90px;
+  }
+  .circle1{
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 575px;
+    margin-left: 180px;
+    width: 50px;
+    height: 50px;
+  }
+  .circle1 svg{
+    margin-left: 17.5px;
+    margin-top: 17px;
+  }
+  .ready_to_start{
+    position: absolute;
+    margin-top: 590px;
+    margin-left: 235px;
+    color: #FAF8F6;
+    
+  }
+  .ready_to_start h5{
+    line-height: 25px;
+    font-family: Kumbh Sans;
+font-size: 14px;
+font-weight: 400;
+  }
+  
+    
